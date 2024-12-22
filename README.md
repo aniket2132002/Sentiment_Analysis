@@ -2,6 +2,7 @@
 This project implements a sentiment analysis application that uses the OpenAI GPT model to classify text as Positive, Negative, or Neutral. The application analyzes user-provided text and stores the results (including the input text, sentiment classification, and timestamp) into an SQLite database.
 
 Features:
+
 Sentiment Analysis: The application uses OpenAI's GPT model to classify the sentiment of the input text.
 Database Storage: Results are stored in an SQLite database, ensuring persistence of sentiment analysis results.
 Real-Time Logging: Every sentiment analysis result is logged with a timestamp.
